@@ -56,7 +56,7 @@ x_train = []
 y_train = [] 
 
 # considering 60 as the batch size, 
-# create the X_train and y_train 
+# creating the X_train and y_train 
 for i in range(60, len(train_data)): 
 	x_train.append(train_data[i-60:i, 0]) 
 	y_train.append(train_data[i, 0]) 
